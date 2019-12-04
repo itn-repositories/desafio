@@ -35,7 +35,7 @@ Obs: desconsiderar feriados
 Se a data estiver fora do período disponível, o sistema deve retornar uma mensagem para o cliente informando qual regra ela não se aplica. (Ex: 30/11/2019 - 17:00 Resposta : "O agendamento só está disponível até às 16hs no sábado");
 
 # Instruções 
-* [Obrigatório] disponibilizar o link do github para: contato@timeitn.com.br	
+* [Obrigatório] disponibilizar o link do github para: eduardo.araujo@timeitn.com.br	
 * [Obrigatório] readme.md conter as instruções para buildar e servir o aplicativo.
 * [Desejavel] que disponibilize o aplicativo na plataforma [Heroku](https://www.heroku.com)
 
@@ -46,12 +46,11 @@ Se a data estiver fora do período disponível, o sistema deve retornar uma mens
 # Tecnologias Front-end (Obrigatório):
 #### Escolher entre os frameworks:
 * Angular 6.x.x
+* React
 
 # Diferenciais:
 * Docker;
 * TypeScript;
-* Kubernetes;
 * Organização e clareza nas ideias;
-* Menos é mais, seja prático e não perca tempo com aspectos desnecessários;
 
 Use o contato do Eduardo (eduardo.araujo@timeitn.com.br) para sanar qualquer dúvida.
