@@ -1,4 +1,4 @@
-# Desafio ITN 2019 - Full-Stack
+# Desafio ITN 2020 - Full-Stack
 
 Este desafio tem como objetivo testar os seus conhecimentos de desenvolvedor fullstack e avaliar a sua forma de codificação e habilidades com as tecnologias propostas.
 
@@ -16,6 +16,7 @@ Dias | Período
 :--------- | :------: 
 Segunda - Quarta - Sexta | 08:00 às 12:00 Intervalo 13:01 às 18:00
 Sábado | 08:00 às 12:00  Intervalo 13:01 às 16:00
+Desconsiderar feriados 
 
 O cliente poderá marcar um agendamento somente se o horário estiver disponível. 
 
@@ -31,8 +32,12 @@ Obs: desconsiderar feriados
 * No frontend deve ter uma tela para o cliente realizar o agendamento;
 * No frontend deve possuir um calendário para mostrar os agendamentos do dia.
 * No Frontend você deve desenvolver uma tela que gere o relatório de agendamentos.
+- Todos os campos devem ser validados.
+- Nome e Data não deve ser nulo.
+- O agendamento só pode ser feito a patir do dia seguinte. 
 
-Se a data estiver fora do período disponível, o sistema deve retornar uma mensagem para o cliente informando qual regra ela não se aplica. (Ex: 30/11/2019 - 17:00 Resposta : "O agendamento só está disponível até às 16hs no sábado");
+Se a data estiver fora do período disponível, o sistema deve retornar uma mensagem para o cliente informando qual regra ela não se aplica. 
+Ex: 30/11/2019 - 17:00 Resposta : "O agendamento só está disponível até às 16hs no sábado"
 
 # Instruções 
 * [Obrigatório] disponibilizar o link do github para: eduardo.araujo@timeitn.com.br	
