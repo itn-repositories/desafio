@@ -26,7 +26,7 @@ Lucas precisa de um relatório informando quantas consultas foram marcadas em um
 
 Obs: desconsiderar feriados
 
-# Sabendo que cada consulta tem duração de 30 min, deve ser entregue:
+# Sabendo que cada consulta tem duração de 30 min, faça:
 * No backend deve ter um endpoint para receber o nome do cliente e a data do agendamento para registrar no sistema.
 * No backend deve ter um endpoint para cancelar um agendamento e consequentemente torná-lo disponível para outra pessoal;
 * No frontend deve ter uma tela para o cliente realizar o agendamento;
@@ -40,18 +40,18 @@ Se a data estiver fora do período disponível, o sistema deve retornar uma mens
 Ex: 30/11/2019 - 17:00 Resposta : "O agendamento só está disponível até às 16hs no sábado"
 
 # Instruções 
-* [Obrigatório] disponibilizar o link do github para: eduardo.araujo@timeitn.com.br	
+* [Obrigatório] disponibilizar o link do github para: jairo.alves@institutoitn.com.br	
 * [Obrigatório] readme.md conter as instruções para buildar e servir o aplicativo.
 * [Desejavel] que disponibilize o aplicativo na plataforma [Heroku](https://www.heroku.com)
 
 # Tecnologias Back-end (Obrigatório):
 * Spring Boot;
-* Banco relacional ou não relacional é de livre escolha;
+* AspNET Core 2.1 ou 3.1;
+* Banco relacional - Postgres ou SQLServer;
 
 # Tecnologias Front-end (Obrigatório):
 #### Escolher entre os frameworks:
-* Angular 6.x.x
-* React
+* Angular 8.x.x
 
 # Diferenciais:
 * Docker;
